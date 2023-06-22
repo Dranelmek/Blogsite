@@ -12,8 +12,10 @@ class BlogPostView(generics.ListAPIView):
 
 
 def main(request):
-    return HttpResponse("<h1>sample text</h1>")
+    return render(request, 'docs.html')
 
+def noURL(request):
+    return render(request, 'noURL.html')
 
 # def blogs(request):
 #     """
