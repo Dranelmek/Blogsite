@@ -1,5 +1,6 @@
 import './styles/App.css';
 import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <p>here we go</p>
+      <Home></Home>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import './styles/Navbar.css';
 import logo from './assets/LT-logo.png'
 
-function Navbar() {
+const Navbar = function() {
   return (
     <nav className="navbar navbar-expand-md">
       <a className="navbar-brand home" href="#">
