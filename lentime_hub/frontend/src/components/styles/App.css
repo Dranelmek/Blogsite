@@ -16,3 +16,9 @@
   background-color: #15171b;
   transition: 0.3s;
 }
+
+.content {
+  height: 100%;
+  min-height: 100vh;
+  margin-bottom: 2vh;
+}

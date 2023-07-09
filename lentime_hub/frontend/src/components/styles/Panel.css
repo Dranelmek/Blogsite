@@ -4,6 +4,9 @@
     color: white;
     font-size: 2em;
     text-align: center;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    max-height: 240px;
 }
 
 
@@ -11,5 +14,8 @@
 .panel:hover {
     color: #15171b;
     background-color: #65dbdf;
+    font-size: 2.5em;
     transition: 1s;
+    padding-top: auto;
+    padding-bottom: auto;
 }
