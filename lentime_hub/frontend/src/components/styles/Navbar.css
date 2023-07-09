@@ -1,0 +1,57 @@
+.navbar {
+    color: aliceblue;
+    font-size: calc(10px + 2vh);
+    height: 80%;
+    padding: auto;
+    margin: auto;
+    vertical-align: middle;
+    padding-left: 2%;
+}
+
+.navbar-brand{
+    left: 1%;
+}
+
+/* logo and logo title */
+
+.logo {
+    width: 8%;
+    height: auto;
+    min-width: 50px;
+    max-width: 80px;
+    margin-right: 4px;
+}
+
+.home .logo-title{
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
+.navbar .home {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* This section tries to make navbar items look nice when hovered without moving the other iteems around too much */
+
+.navbar div .nav-item {
+    margin-left: 3.5%;
+    padding-left: 3px;
+    padding-left: 3px;
+}
+
+.navbar div .nav-item:hover {
+    background-color: #0b0c0e;
+    font-weight: bolder;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding-left: 0;
+    padding-left: 0;
+}
+
+.navbar div .nav-item a:hover {
+    color: aliceblue;
+}
+
+/* end of section */
