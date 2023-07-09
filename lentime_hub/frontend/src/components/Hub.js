@@ -1,13 +1,14 @@
+import "./styles/Hub.css"
 import PanelContainer from './PanelContainer';
 
-const Home = function () {
+const Hub = function () {
     
     return (
-        <div className="home">
+        <div className="hub">
             <PanelContainer></PanelContainer>
         </div>
         
     )
 }
 
-export default Home;
+export default Hub;

@@ -2,4 +2,14 @@
     border-radius: 10px;
     background-color: #15171b;
     color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+.panel:hover {
+    color: #15171b;
+    background-color: #65dbdf;
+    transition: 1s;
 }
