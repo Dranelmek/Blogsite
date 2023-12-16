@@ -1,3 +1,4 @@
+/* global navbar settings */
 .navbar {
     color: aliceblue;
     font-size: calc(10px + 2vh);
@@ -10,6 +11,8 @@
 
 .navbar-brand{
     left: 1%;
+    max-height: 60px;
+    min-width: 210px;
 }
 
 /* logo and logo title */
@@ -32,6 +35,15 @@
     font-weight: bold;
     color: aliceblue;
 }
+/* navbar itmes */
+
+#navbarNav {
+
+}
+
+#navbar-content {
+
+}
 
 /* This section tries to make navbar items look nice when hovered without moving the other iteems around too much */
 
@@ -39,6 +51,7 @@
     margin-left: 3.5%;
     padding-left: 3px;
     padding-left: 3px;
+    transition: 0.3s;
 }
 
 .navbar div .nav-item:hover {
