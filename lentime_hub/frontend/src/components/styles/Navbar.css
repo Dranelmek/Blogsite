@@ -6,13 +6,13 @@
     padding: auto;
     margin: auto;
     vertical-align: middle;
-    padding-left: 2%;
 }
 
 .navbar-brand{
     left: 1%;
     max-height: 60px;
     min-width: 210px;
+    position: absolute;
 }
 
 /* logo and logo title */

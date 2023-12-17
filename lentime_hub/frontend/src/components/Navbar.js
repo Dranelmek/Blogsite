@@ -14,32 +14,24 @@ const Navbar = function() {
         aria-expanded="false" 
         aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-      <div className="container">
-      
-        
-        <div className="row">
-          <div className="collapse navbar-collapse col-12" id="navbarNav">
-            <ul className="navbar-nav" id="navbar-content">
-              <li className="nav-item">
-                <a className="nav-link" href="#">Career</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Projects</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Streaming</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul className="navbar-nav" id="navbar-content">
+          <li className="nav-item">
+            <a className="nav-link" href="#">Career</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Projects</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Streaming</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
       </div>
-      
     </nav>
   );
 }
