@@ -5,6 +5,7 @@ const Navbar = function() {
   return (
     <nav className="navbar navbar-expand-md">
       <HomeButton />
+      <div id="bootstrapSucks"></div>
       <button 
         className="navbar-toggler" 
         type="button" 
@@ -17,7 +18,7 @@ const Navbar = function() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul className="navbar-nav" id="navbar-content">
+        <ul className="navbar-nav" id="navbarContent">
           <li className="nav-item">
             <a className="nav-link" href="#">Career</a>
           </li>

@@ -15,6 +15,10 @@
     position: absolute;
 }
 
+#bootstrapSucks {
+    visibility: hidden;
+}
+
 /* logo and logo title */
 
 .logo {
@@ -35,22 +39,18 @@
     font-weight: bold;
     color: aliceblue;
 }
-/* navbar itmes */
+/* navbar button */
 
-#navbarNav {
-
+.navbar-toggler {
+    margin-right: 1vw;
 }
 
-#navbar-content {
-
-}
 
 /* This section tries to make navbar items look nice when hovered without moving the other iteems around too much */
 
 .navbar div .nav-item {
-    margin-left: 3.5%;
     padding-left: 3px;
-    padding-left: 3px;
+    padding-right: 3px;
     transition: 0.3s;
 }
 
